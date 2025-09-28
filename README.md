@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎥 Video-AI
 
-## Getting Started
+A **Next.js + MongoDB + NextAuth** based project for managing videos with **authentication, media handling, and AI-powered features**.  
+Inspired by **Hitesh Choudhary (Chai aur Code)** and built as part of my developer learning journey.
 
-First, run the development server:
+---
 
+## 🚀 Features
+
+- 🔑 **Authentication** – Login, Register, Sessions, JWT with NextAuth  
+- 👤 **User Model** – Email, Password, ID, Profile handling  
+- 🎬 **Video Model** – Title, Description, Thumbnail, Metadata  
+- 🖼️ **Image Handling** – ImageKit + AI ImageKit integration  
+- 🎨 **Frontend** – Next.js, React, Tailwind CSS  
+- 🛠️ **Backend** – Mongoose + MongoDB setup  
+- ⚡ **Routing** – API routes, Middleware for security  
+
+---
+
+## 📌 Project Roadmap
+
+- ✅ User & Video Models setup  
+- ✅ Authentication with NextAuth  
+- ✅ Database connection with MongoDB (via Mongoose)  
+- ✅ Frontend login & register forms  
+- 🔄 UI Design with Tailwind CSS (in progress)  
+- 🔄 Video upload API  
+- 🔄 AI-powered video tagging & search  
+- 🔜 Deployment & testing  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js, React, Tailwind CSS  
+- **Backend:** Node.js, Next.js API routes, Express concepts  
+- **Database:** MongoDB + Mongoose  
+- **Authentication:** NextAuth + JWT  
+- **Media:** ImageKit + AI ImageKit  
+- **Version Control:** Git & GitHub  
+
+---
+
+## 📖 Installation
+
+Clone the repo:  
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/video-ai.git
+cd video-ai
