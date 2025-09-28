@@ -1,0 +1,71 @@
+.upload-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.file-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+
+.file-input:hover {
+    border-color: #007bff;
+}
+
+.upload-button {
+    width: 100%;
+    padding: 12px 16px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.progress-wrapper {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 18px;
+    border-radius: 10px;
+    appearance: none;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.progress-bar::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.progress-bar::-webkit-progress-value {
+    background-color: #28a745;
+    border-radius: 10px;
+    transition: width 0.4s ease;
+}
+
+.progress-bar::-moz-progress-bar {
+    background-color: #28a745;
+    border-radius: 10px;
+}
